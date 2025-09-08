@@ -15,7 +15,7 @@ export const Hero = () => {
   const position = isMobile ? [3, -5, 0] : [6, -4, 0];
   const rotation = isMobile ? [-0.5, -0.4, 0] : [-0.6, 0.6, 0];
   return (
-    <section className="flex items-start justify-center md:items-start md:justify-start min-h-screen overflow-hidden c-space">
+    <section id="hero" className="flex items-start justify-center md:items-start md:justify-start min-h-screen overflow-hidden c-space">
       <HeroText />
       <ParallaxBG />
       <figure

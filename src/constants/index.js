@@ -10,7 +10,7 @@ export const myProjects = [
       "Secure Authentication: Separate login for admin and users (students and teachers).",
       "Smart Location Description: Locations are described relative to known departments (e.g., “Near Chemical Department”).",
     ],
-    href: "",
+    href: "https://github.com/HarshArya04/God-Eye",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
@@ -47,7 +47,7 @@ export const myProjects = [
       "Depression Level Prediction: Predicts whether a person is Normal, Mild, Moderate, or Severe.",
       "Real-Time Compatibility: Can be extended into a real-time screening tool for mental health monitoring.",
     ],
-    href: "",
+    href: "https://github.com/HarshArya04/Depression-Detection-and-Consultation",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
@@ -84,7 +84,7 @@ export const myProjects = [
       "Multi-Class Prediction: Classifies common skin diseases (e.g., eczema, psoriasis, acne, melanoma, etc.).",
       "High Accuracy: Trained and tested on benchmark medical image datasets.",
     ],
-    href: "",
+    href: "https://github.com/HarshArya04/Chat-Bot",
     logo: "",
     image: "/assets/projects/blazor-app.jpg",
     tags: [
@@ -121,7 +121,7 @@ export const myProjects = [
       "Environment Interaction: Vault and climb mechanics allow the player to navigate obstacles dynamically.",
       "OAnimation Integration: Used Unreal Engine’s Animation Blueprint and State Machines to sync actions (vault, climb, crouch) with character animations.",
     ],
-    href: "",
+    href: "https://github.com/HarshArya04/RPG-Game",
     logo: "",
     image: "/assets/projects/game-engine.jpg",
     tags: [
@@ -158,7 +158,7 @@ export const myProjects = [
       "Game Jam Creativity: Developed within strict time constraints, showcasing rapid prototyping, design, and implementation skills.",
       "Visual & Audio Atmosphere: Styled with a minimal yet engaging underwater theme.",
     ],
-    href: "",
+    href: "https://ulysses7.itch.io/matsya",
     logo: "",
     image: "/assets/projects/wordpress-theme.jpg",
     tags: [
@@ -226,17 +226,17 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/919389548620?text=Hi%20Harsh,%20I%20saw%20your%20portfolio!",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/harsh-kumar-6aa564373/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/h.arsh_arya/",
     icon: "/assets/socials/instagram.svg",
   },
 ];

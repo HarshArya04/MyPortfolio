@@ -2,7 +2,7 @@ import { Timeline } from "../components/TImeline"
 import {experiences} from "../constants"
 const Experiences = () => {
   return (
-    <div className='w-full'>
+    <div id="experience"  className='w-full'>
         <Timeline data={experiences}/>
     </div>
   )
