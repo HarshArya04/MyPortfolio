@@ -3,10 +3,10 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const ParallaxBG = () => {
   const { scrollYProgress } = useScroll();
   const x = useSpring(scrollYProgress, { damping: 50});
-  const mountain3Y = useTransform(x, [0, 0.5], ['0%', '70%']);
+  const mountain3Y = useTransform(x, [0, 0.5], ['64%', '70%']);
   const planetX = useTransform(x, [0, 0.5], ['0%', '-20%']);
-  const mountain2Y = useTransform(x, [0, 0.5], ['0%', '30%']);
-  const mountain1Y = useTransform(x, [0, 0.5], ['0%', '0%']);
+  const mountain2Y = useTransform(x, [0, 0.5], ['-10%', '30%']);
+  const mountain1Y = useTransform(x, [0, 0.5], ['60%', '0%']);
 
   return (
     <section className="absolute inset-0 bg-black/40">
@@ -23,11 +23,11 @@ const ParallaxBG = () => {
 
         {/* Mountain Layer 3 */}
         <motion.div
-          className="absolute inset-0 -z-40 bg-bottom bg-cover"
+          className="absolute inset-0 z-1  bg-bottom bg-cover"
           style={{
-            backgroundImage: "url('/assets/mountain-3.png')",
+            backgroundImage: "url('/assets/mountain-32.png')",
             backgroundPosition: "bottom",
-            backgroundSize: "cover",
+            backgroundSize: "contain",
             y: mountain3Y,
           }}
         />
@@ -56,11 +56,11 @@ const ParallaxBG = () => {
 
         {/* Mountain Layer 1 */}
         <motion.div
-          className="absolute inset-0 -z-10 bg-bottom bg-cover"
+          className="absolute inset-0 z-2 bg-bottom bg-cover"
           style={{
-            backgroundImage: "url('/assets/mountain-1.png')",
+            backgroundImage: "url('/assets/mountain-32.png')",
             backgroundPosition: "bottom",
-            backgroundSize: "cover",
+            backgroundSize: "contain",
             y: mountain1Y,
           }}
         />
